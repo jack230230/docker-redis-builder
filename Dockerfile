@@ -1,3 +1,3 @@
-FROM cyberdojofoundation/ubuntu-build-essential:18.04
+FROM efrecon/tcl 
 
-RUN apt install -y tcl8.5
+RUN apt-get install -y build-essential
